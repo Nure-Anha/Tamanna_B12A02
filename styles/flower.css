@@ -366,6 +366,57 @@ main > section{
 }
 
 
+
+                                                            /*JOIN THE COLORFUL BUNCH SECTION*/
+.colorful_bunch{
+    background-image: url(/assets/news-letter-bg.png);
+    background-size: cover;
+    max-width: 1440px;
+    height: 553px;
+}
+
+.bunch_heading{
+    font-weight: 700;
+    font-size: 3.12rem;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 180px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.form_btn{
+    display: flex;
+}
+.email_form{
+    width: 644px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-left: 270px;
+    /* align-items: center; */
+     padding-left: 20px;
+     font-weight: 400;
+     font-size: 1rem;
+     color: rgba(0, 0, 0, 0.5);
+     
+}
+.bunch_btn{
+    width: 186px;
+    height: 55px;
+    background-color: #E95A08;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+    margin-right: 70px;
+}
+
+
                     
 
 
@@ -384,9 +435,9 @@ main > section{
 
 
 
-                                                                /*Responsive for Small Device*/
+                                                                        /*Responsive for Small Device*/
 
-                                                                    /*Bannar section*/
+                                                                                /*Bannar section*/
 @media screen and (max-width: 576px) {
 .homeNav, .shopNav, .aboutusNav{
     display: none;
@@ -434,7 +485,7 @@ main > section{
     /* border: 1px solid black; */
     
 }
-                                                                    /*OUR PLANTS SECTION*/
+                                                                            /*OUR PLANTS SECTION*/
 .plants_title{
     /* border: 1px solid black; */
     padding-left: 20px;
@@ -479,7 +530,7 @@ main > section{
     font-size: 1rem;
 }   
 
-                                                                /*LOVER PLANTS SECTION*/
+                                                                        /*LOVER PLANTS SECTION*/
 .lover_section{
     flex-direction: column;
     margin-left: 20px;
@@ -513,7 +564,7 @@ main > section{
 }
 
 
-/*LATEST DEALS SECTION*/
+                                                                        /*LATEST DEALS SECTION*/
 .deal_heading{
     margin-top: 250px;
     /* border: 1px solid black; */
@@ -552,6 +603,31 @@ main > section{
     font-size: 1.1rem;
 }
 
+
+                                                                            /*BUNCH SECTION*/
+.colorful_bunch{
+    /* max-width: 100%; */
+    /* width: 393px; */
+    /* height: 275px; */
+    height: 250px;
+    background-position: top;
+}
+.bunch_heading{
+    font-size: 1.5rem;
+    padding-top: 80px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.email_form{
+    width: 238px;
+    height: 50px;
+    margin-left: 20px;
+}
+.bunch_btn{
+    width: 115px;
+    height: 55px;
+    /* margin-right: 90px; */
+}
 
 
 
