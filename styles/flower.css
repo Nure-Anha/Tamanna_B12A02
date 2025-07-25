@@ -369,7 +369,7 @@ main > section{
 
                                                             /*JOIN THE COLORFUL BUNCH SECTION*/
 .colorful_bunch{
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     background-size: cover;
     max-width: 1440px;
     height: 553px;
