@@ -606,11 +606,16 @@ main > section{
 
                                                                             /*BUNCH SECTION*/
 .colorful_bunch{
-    /* max-width: 100%; */
+    /* width: 100%; */
     /* width: 393px; */
     /* height: 275px; */
     height: 250px;
+    width: 420px;
     background-position: top;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* padding-left: 330px; */
+
 }
 .bunch_heading{
     font-size: 1.5rem;
@@ -619,13 +624,13 @@ main > section{
     margin-bottom: 20px;
 }
 .email_form{
-    width: 238px;
-    height: 50px;
-    margin-left: 20px;
+    max-width: 225px;
+    height: 45px;
+    margin-left: 25px;
 }
 .bunch_btn{
-    width: 115px;
-    height: 55px;
+    max-width: 115px;
+    height: 50px;
     /* margin-right: 90px; */
 }
 
